@@ -41,6 +41,7 @@ allprojects {
 }
 
 ext {
+    jacocoEnabled = System.properties.getProperty("jacocoEnabled") ?: "false"
     versions = [
             supportLib: "27.1.1"
     ]
