@@ -78,7 +78,7 @@ task jacocoUnitTestCoverage(type: JacocoReport, dependsOn: ['testFlossGmapDebugU
 
     getExecutionData().setFrom(fileTree(
             dir: "${buildDir}",
-            include: ['jacoco/testDebugUnitTest.exec']
+            include: ['jacoco/testFlossGmapDebugUnitTest.exec']
     ))
 }
 
